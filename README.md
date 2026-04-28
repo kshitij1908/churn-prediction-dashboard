@@ -29,7 +29,6 @@ A high-performance, premium machine learning dashboard designed to predict telec
 
 | Model | Accuracy | ROC-AUC |
 |---|---|---|
-| **XGBoost** | 83.4% | 0.92 |
 | **Random Forest** | 81.2% | 0.89 |
 | **Logistic Regression** | 79.5% | 0.86 |
 
