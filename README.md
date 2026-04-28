@@ -1,4 +1,4 @@
-# 🚀 Customer Churn Prediction Dashboard
+#  Customer Churn Prediction Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-18.0+-61DAFB?style=flat&logo=react&logoColor=black)](https://reactjs.org/)
@@ -7,55 +7,25 @@
 
 A high-performance, premium machine learning dashboard designed to predict telecom customer churn with high precision. This project leverages advanced ML algorithms and a modern glassmorphic UI to provide actionable business insights.
 
-![Dashboard Preview](https://raw.githubusercontent.com/kshitij1908/churn-prediction-dashboard/main/preview.png) *(Note: Add your screenshot here)*
+![Dashboard Preview](https://raw.githubusercontent.com/kshitij1908/churn-prediction-dashboard/main/preview.png) 
 
-## ✨ Key Features
+## Key Features
 
-- **🎯 Precision Analytics**: Compare Logistic Regression, Random Forest, and XGBoost models.
-- **⚖️ Class Balancing**: Implements SMOTE (Synthetic Minority Over-sampling Technique) to handle imbalanced churn data.
-- **⚡ Real-time Predictions**: Instant churn risk assessment for individual customers.
-- **📊 Interactive Visualizations**: Dynamic charts showing churn drivers, tenure distribution, and contract impacts.
-- **💎 Premium UI/UX**: Built with Framer Motion, TailwindCSS, and Lucide icons for a state-of-the-art experience.
+-  Precision Analytics**: Compare Logistic Regression, Random Forest, and XGBoost models.
+-  Class Balancing**: Implements SMOTE (Synthetic Minority Over-sampling Technique) to handle imbalanced churn data.
+-  Real-time Predictions**: Instant churn risk assessment for individual customers.
+-  Interactive Visualizations**: Dynamic charts showing churn drivers, tenure distribution, and contract impacts.
+-  Premium UI/UX**: Built with Framer Motion, TailwindCSS, and Lucide icons for a state-of-the-art experience.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Layer | Technologies |
 |---|---|
-| **Backend** | FastAPI, Scikit-Learn, XGBoost, Pandas, NumPy, SMOTE |
+| **Backend** | FastAPI, Scikit-Learn, Pandas, NumPy, SMOTE |
 | **Frontend** | Vite, React 18, TailwindCSS, Recharts, Framer Motion |
 | **Development** | Python 3.9+, Node.js 18+, PowerShell |
 
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/kshitij1908/churn-prediction-dashboard.git
-cd churn-prediction-dashboard
-```
-
-### 2. Setup Backend
-```bash
-cd backend
-python -m venv venv
-.\venv\Scripts\activate
-pip install -r requirements.txt
-python main.py
-```
-
-### 3. Setup Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-### 4. Quick Start (Windows)
-Simply run the included PowerShell script to launch both servers simultaneously:
-```powershell
-./run.ps1
-```
-
-## 📈 Model Performance
+##  Model Performance
 
 | Model | Accuracy | ROC-AUC |
 |---|---|---|
@@ -63,7 +33,7 @@ Simply run the included PowerShell script to launch both servers simultaneously:
 | **Random Forest** | 81.2% | 0.89 |
 | **Logistic Regression** | 79.5% | 0.86 |
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 churn-prediction-dashboard/
@@ -77,8 +47,5 @@ churn-prediction-dashboard/
 └── run.ps1             # Startup Script
 ```
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-Developed with ❤️ by [Kshitij](https://github.com/kshitij1908)
+Developed by [Kshitij](https://github.com/kshitij1908)
