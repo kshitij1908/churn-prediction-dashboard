@@ -1,0 +1,17 @@
+# Git Ignore
+.DS_Store
+node_modules/
+dist/
+venv/
+__pycache__/
+*.pyc
+.env
+data/*.csv
+data/*.json
+backend/data/*.csv
+backend/venv/
+frontend/node_modules/
+frontend/dist/
+.vscode/
+.idea/
+*.log

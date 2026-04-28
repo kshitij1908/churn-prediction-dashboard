@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+
+  --color-background: hsl(222 47% 11%);
+  --color-foreground: hsl(213 31% 91%);
+  --color-primary: hsl(217 91% 60%);
+  --color-secondary: hsl(222 47% 11%);
+  --color-accent: hsl(217 91% 60%);
+  --color-destructive: hsl(0 84% 60%);
+  --color-muted: hsl(223 47% 20%);
+  --color-card: hsl(222 47% 13%);
+  --color-border: hsl(223 47% 15%);
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-inter;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(217, 91%, 60%, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(222, 47%, 11%, 0.15) 0px, transparent 50%);
+    min-height: 100vh;
+  }
+  h1, h2, h3, h4 {
+    @apply font-outfit tracking-tight;
+  }
+}
+
+/* Custom Utilities */
+.glass-card {
+  @apply bg-card/40 backdrop-blur-md border border-border/50 rounded-2xl shadow-xl transition-all duration-300;
+}
+
+.glass-card:hover {
+  @apply border-primary/30 shadow-primary/5;
+}
+
+.btn-primary {
+  @apply px-6 py-2.5 bg-primary text-white font-semibold rounded-xl hover:bg-primary/90 transition-all active:scale-95 shadow-lg shadow-primary/20;
+}
+
+.input-field {
+  @apply w-full px-4 py-2.5 bg-muted/50 border border-border rounded-xl focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-muted rounded-full hover:bg-muted/80;
+}
