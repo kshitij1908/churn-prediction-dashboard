@@ -11,7 +11,7 @@ A high-performance, premium machine learning dashboard designed to predict telec
 
 ## Key Features
 
--  Precision Analytics**: Compare Logistic Regression, Random Forest, and XGBoost models.
+-  Precision Analytics**: Compare Logistic Regression, Random Forest models.
 -  Class Balancing**: Implements SMOTE (Synthetic Minority Over-sampling Technique) to handle imbalanced churn data.
 -  Real-time Predictions**: Instant churn risk assessment for individual customers.
 -  Interactive Visualizations**: Dynamic charts showing churn drivers, tenure distribution, and contract impacts.
